@@ -1,0 +1,33 @@
+body {
+    background-color: #EEEEEE;
+}
+
+#right-background {
+    background-color: #FF8F60;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 70%;
+    right: 0;
+}
+
+#right-background img {
+    position: absolute;
+    top: 18%;
+    right: 47%;
+    width: 289.475px;
+    height: 320px;
+}
+
+#logo img {
+    margin: 15px 0 0 30px;
+    width: 221px;
+    height: 53.25;
+}
+
+#mainicon img {
+    width: 75px;
+    height: 75px;
+    margin: 9% 0 0 20%;
+
+}
