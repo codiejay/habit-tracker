@@ -28,11 +28,12 @@ body {
 #mainicon img {
     width: 75px;
     height: 75px;
-    margin: 6% 0 0 30%;
+    margin: 5% 0 0 28%;
 }
 
 #orange-btn {
-    margin: 5% 30% 0 20%;
+    margin: 4% 0px 0 10%;
+    display: inline-block;
 
 }
 
@@ -46,6 +47,12 @@ body {
     letter-spacing: 1pt;
 }
 
+#white-btn {
+    display: inline-block;
+    margin-left: 30px;;
+}
+
+
 #white-btn button {
     color: #FF8F60;
     background-color: ;
@@ -55,5 +62,53 @@ body {
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 1pt;
-    
+}
+
+.vl {
+    border-left: 1px solid #FF8F60;
+    height: 65px;
+    position: absolute;
+    left: 15%;
+    top: 50%;
+}
+
+.btn {
+    margin-left: 30px;
+}
+
+.form {
+    margin: 55px 0 0 11.5%;
+}
+
+#Email {
+    padding: 10px;
+    width: 20%;
+    border-radius: 10px;
+    border: 1px solid #FF8F60;
+    background-color: #EEEEEE;
+    color: #848484;
+    font-size: 16px;
+    letter-spacing: 1pt;
+}
+
+#password {
+    padding: 10px;
+    width: 20%;
+    border-radius: 10px;
+    border: 1px solid #FF8F60;
+    background-color: #EEEEEE;
+    color: #848484;
+    font-size: 16px;
+    letter-spacing: 1pt;
+}
+
+#submit {
+    color: white;
+    background-color: #FF8F60;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1pt;
+    width: 15%;
 }
