@@ -28,6 +28,32 @@ body {
 #mainicon img {
     width: 75px;
     height: 75px;
-    margin: 9% 0 0 20%;
+    margin: 6% 0 0 30%;
+}
 
+#orange-btn {
+    margin: 5% 30% 0 20%;
+
+}
+
+#orange-btn button {
+    color: white;
+    background-color: #FF8F60;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1pt;
+}
+
+#white-btn button {
+    color: #FF8F60;
+    background-color: ;
+    border: 1px solid #FF8F60;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1pt;
+    
 }
