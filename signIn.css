@@ -1,0 +1,114 @@
+body {
+    background-color: #EEEEEE;
+}
+
+#right-background {
+    background-color: #FF8F60;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 70%;
+    right: 0;
+}
+
+#right-background img {
+    position: absolute;
+    top: 18%;
+    right: 47%;
+    width: 289.475px;
+    height: 320px;
+}
+
+#logo img {
+    margin: 15px 0 0 30px;
+    width: 221px;
+    height: 53.25;
+}
+
+#mainicon img {
+    width: 75px;
+    height: 75px;
+    margin: 5% 0 0 28%;
+}
+
+#orange-btn {
+    margin: 4% 0px 0 10%;
+    display: inline-block;
+
+}
+
+#orange-btn button {
+    color: white;
+    background-color: #FF8F60;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1pt;
+}
+
+#white-btn {
+    display: inline-block;
+    margin-left: 30px;;
+}
+
+
+#white-btn button {
+    color: #FF8F60;
+    background-color: ;
+    border: 1px solid #FF8F60;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1pt;
+}
+
+.vl {
+    border-left: 1px solid #FF8F60;
+    height: 65px;
+    position: absolute;
+    left: 15%;
+    top: 50%;
+}
+
+.btn {
+    margin-left: 30px;
+}
+
+.form {
+    margin: 55px 0 0 11.5%;
+}
+
+#Email {
+    padding: 10px;
+    width: 20%;
+    border-radius: 10px;
+    border: 1px solid #FF8F60;
+    background-color: #EEEEEE;
+    color: #848484;
+    font-size: 16px;
+    letter-spacing: 1pt;
+}
+
+#password {
+    padding: 10px;
+    width: 20%;
+    border-radius: 10px;
+    border: 1px solid #FF8F60;
+    background-color: #EEEEEE;
+    color: #848484;
+    font-size: 16px;
+    letter-spacing: 1pt;
+}
+
+#submit {
+    color: white;
+    background-color: #FF8F60;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1pt;
+    width: 15%;
+}
