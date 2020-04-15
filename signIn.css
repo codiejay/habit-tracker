@@ -2,10 +2,12 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
 }
 
 body {
     background-color: #EEEEEE;
+    overflow: hidden;
 }
                 /* Right section and icons styles */
 
@@ -13,12 +15,49 @@ body {
     background-color: #FF8F60;
     position: absolute;
     height: 100%;
-    width: 24em;
+    width: 28em;
     top: 0;
     bottom: 0;
     left: 70%;
     right: 0;
 }
+
+#Quotes{
+    position: relative;
+    top: 70%;
+    height: 12.5em;
+    width: 100%;
+    background-color: transparent;
+    text-transform: uppercase;
+    margin: 1em 1em 1em 3em;
+
+}
+
+#Quotes h3{
+    position: absolute;
+    width: 301px;
+    height: 86px;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 54px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.Aristotel{
+    position: absolute;
+    top:7em;
+    left: 2em;
+    height: 2em;
+    width:10em;
+    background-image: url(./assets/-\ Aristotel.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 
 #right-background{
     background-image: url(./assets/helmet.svg);
@@ -141,7 +180,19 @@ body {
     /* End of form styles */
 
     /* Pseudo elements */
-
+#QuoteText::after{
+    content: '';
+    height: 2em;
+    width: 2em;
+    /* padding: 0.5em; */
+    background-image: url(./assets/Quotemarks\ right.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    right: 5%;
+    bottom: 80%;
+}
 
 
     /* End of Pseudo elements */
